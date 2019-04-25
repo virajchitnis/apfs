@@ -8,4 +8,5 @@ snapUtil: snapUtil.c
 	clang -Wall -Os -g -o snapUtil snapUtil.c
 
 clean:
-	rm -f snapUtil
+	-rm -f snapUtil
+	-rm -rf *.dSYM
